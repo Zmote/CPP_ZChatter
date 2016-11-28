@@ -28,3 +28,6 @@ library path:
 C:/Program Files/wxWidgets/lib/gcc_dll
 
 Also, you'll have to put the dll's into the same folder(if not configured otherwise) as the executable built by your ide for the program to work.
+
+#Tests
+The current test project is only setup for UI test(ie. tests for UI methods). An additional CUTE Library Test projects needs to be set for Projects, that provide additional functionality, which are then used in the UI(this lib would have to be built and linked into the UI proj)
