@@ -1,3 +1,4 @@
+#Setup
 To use this project, you need to have wxWidgets installed and built for shared libraries. Use following command of mingw in path: C:/Program Files/wxWidgets/build/msw
 mingw32-make -f makefile.gcc SHARED=1 UNICODE=1 BUILD=release clean //for cleaning up
 mingw32-make -f makefile.gcc SHARED=1 UNICODE=1 BUILD=release // for building with shared libraries
